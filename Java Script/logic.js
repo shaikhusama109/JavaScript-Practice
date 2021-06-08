@@ -12,3 +12,12 @@ let eligiblePlaying = lowPing && highFps;
 console.log(eligiblePlaying);
 
 
+
+
+// Second Logic  
+  let pappiFitness = true;
+  let jabraFitness = true; 
+    
+  let pregnancyEligibility = pappiFitness && jabraFitness;  
+    
+      console.log(pregnancyEligibility);
