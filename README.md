@@ -1,3 +1,1 @@
 # JavaScript-Practice
-
-THIS CHANGE HAS BEEN DONE BY PAPPI
