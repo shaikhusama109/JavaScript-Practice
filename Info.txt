@@ -1,0 +1,11 @@
+.indexof(LETTER OR WORD) // find the index of an input if found return index no otherwise return -1
+
+.charAt(INDEX) // give the char of your inputed index.
+
+replace(REPLACED, REPLACING) // IF /word/g then it will change globallly otherwise only forst encountered.
+
+number(), parseint() // to convert char to string
+
+.toString // convert number to string
+
+toFixed(number) // only give fix number of decimal    
