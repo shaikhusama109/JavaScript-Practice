@@ -54,18 +54,47 @@
 // console.log("constructor" in student2)
 
 // console.log(student2.hasOwnProperty("constructor"))
+const firebaseConfig = {
+    apiKey: "AIzaSyD6lb_oYLhUU-nub4uNNuZOR-ABavgR_5k",
+    authDomain: "learning-db-1c4cc.firebaseapp.com",
+    databaseURL: "https://learning-db-1c4cc-default-rtdb.firebaseio.com",
+    projectId: "learning-db-1c4cc",
+    storageBucket: "learning-db-1c4cc.appspot.com",
+    messagingSenderId: "169720787281",
+    appId: "1:169720787281:web:369fc21497c07fb064e370"
+  };
 
+  firebase.initializeApp(firebaseConfig);
 
 function saveData() {
     var name = document.getElementById("name");
-    var roll = document.getElementById("roll");
-
+    var id = document.getElementById("id");
     var key = firebase.database().ref('student').push().key
+
+   
     var student = {
         name: name.value,
-        roll: roll.value,
-        key: key
+        id: id.value,
+        key : key
     }
-
-    firebase.database().ref('student/' + key).set(student)
+    
+    firebase.database().ref('student/' + key).set(student);
 }
+
+// function getfirebaseData(){
+//     firebase.database().ref('student').once('value', function(data){
+//         console.log(data.val())
+//     })
+
+// }
+
+function getfirebaseData(){
+    firebase.database().ref('student').on('child_added', function(data){
+        console.log(data.val())
+    })
+
+}
+
+
+
+getfirebaseData();

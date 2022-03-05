@@ -11,3 +11,11 @@ number(), parseint() // to convert char to string
 toFixed(number) // only give fix number of decimal    
 
 Constructor Functions Name must start from a capital letter otherwise program will tale it as a normal func
+
+DATABASE
+In HTML FIle
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+In JS File
+API
+
