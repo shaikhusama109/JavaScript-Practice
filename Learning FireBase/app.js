@@ -66,6 +66,8 @@ const firebaseConfig = {
 
   firebase.initializeApp(firebaseConfig);
 
+// Pushing Form data to Firebase
+
 function saveData() {
     var name = document.getElementById("name");
     var id = document.getElementById("id");
@@ -88,6 +90,9 @@ function saveData() {
 
 // }
 
+
+// Calling Data From Firebase
+
 function getfirebaseData(){
     firebase.database().ref('student').on('child_added', function(data){
         console.log(data.val())
@@ -97,4 +102,9 @@ function getfirebaseData(){
 
 
 
-getfirebaseData();
+// Deleting Data from FireBase
+
+function removeFirebaseData(){
+
+    firebase.database().ref('student').remove()
+}
