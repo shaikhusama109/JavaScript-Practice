@@ -94,23 +94,23 @@
 // Promise 
 
 
-var promise = new Promise(function(resolve,reject){
-   if(true){
-       setTimeout(()=>{
-           resolve("It's resolve")
-       },3000)
-   }else{
-       reject("Reject")
-   }
-})
+// var promise = new Promise(function(resolve,reject){
+//    if(true){
+//        setTimeout(()=>{
+//            resolve("It's resolve")
+//        },3000)
+//    }else{
+//        reject("Reject")
+//    }
+// })
 
-console.log(promise)
-promise.then(function(data){
-    console.log("Resolve==>",data)
-})
-.catch(function(error){
-    console.log("Error==>",error)
-})
+// console.log(promise)
+// promise.then(function(data){
+//     console.log("Resolve==>",data)
+// })
+// .catch(function(error){
+//     console.log("Error==>",error)
+// })
 
 
 
@@ -134,8 +134,18 @@ promise.then(function(data){
 //     console.log(err)
 // })
 
+// Simple Function 
+ 
+// function addNumbers(a,b){
+//     return a+b;
 
+// }
 
+//ES6 Function
+
+//  addNumbers = (a,b) => a+b 
+
+// console.log(addNumbers(1,2))
 
 
 
