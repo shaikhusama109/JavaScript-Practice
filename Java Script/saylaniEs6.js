@@ -181,3 +181,23 @@
 
 //     console.log(data)   
 
+// Array Map
+
+// let arr = [ 1, 4, 9, 16]
+
+//     let data = arr.map( arr => arr+2 )
+
+//     console.log(data)
+
+// Search Items With a starts and ends with Function
+
+// let name = "Usama"
+// let search = "Ua"
+
+// if (name.startsWith(search)){
+//     console.log(name)
+// }
+// else {
+//     console.log("Not Found")
+// }
+
