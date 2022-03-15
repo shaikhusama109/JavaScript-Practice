@@ -148,17 +148,36 @@
 // console.log(addNumbers(1,2))
 
 
-let getData = (render_data) => {
-    setTimeout( ()=>{
-        render_data("Usama")
+// Data Rendering from one function to Another
 
-    } , 3000)
-}
+// let getData = (render_data) => {
+//     setTimeout( ()=>{
+//         render_data("Usama")
 
-render_data = (name) => {
-    console.log(name)
+//     } , 3000)
+// }
+
+// render_data = (name) => {
+//     console.log(name)
     
-}
+// }
 
-getData(render_data);
+// getData(render_data);
+
+
+//  Array Filter 
+
+// let arr = [ 
+//         { name : "usama", age : 8},
+//         { name : "basit", age : 8}
+//      ]
+
+//     let data =  arr.filter( a => a.name === "usama"  )
+
+//     console.log(data)
+
+// let arr = [ "Usama Shaikh", "Abdul Basit", "Areeb Ul Haq" , "Maaz Khan", "Saad Ali"]
+//     let data = arr.filter( arrs => arrs.length > 10)
+
+//     console.log(data)   
 
