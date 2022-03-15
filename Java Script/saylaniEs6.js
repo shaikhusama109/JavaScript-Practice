@@ -148,7 +148,17 @@
 // console.log(addNumbers(1,2))
 
 
+let getData = (render_data) => {
+    setTimeout( ()=>{
+        render_data("Usama")
 
+    } , 3000)
+}
 
+render_data = (name) => {
+    console.log(name)
+    
+}
 
+getData(render_data);
 
