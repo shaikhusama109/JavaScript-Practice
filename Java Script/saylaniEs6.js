@@ -201,3 +201,12 @@
 //     console.log("Not Found")
 // }
 
+
+
+// For Each method of array
+
+const array1 = ['a', 'b', 'c'];
+
+let elements = array1.forEach(element => console.log(element));
+
+console.log(elements)
