@@ -205,8 +205,40 @@
 
 // For Each method of array
 
-const array1 = ['a', 'b', 'c'];
+// const array1 = ['a', 'b', 'c'];
 
-let elements = array1.forEach(element => console.log(element));
+// let elements = array1.forEach(element => console.log(element));
 
-console.log(elements)
+// console.log(elements)
+
+
+// Constructor Funvtion in JS and in Es6
+
+// function Student( name, email){
+//     this.name = name;
+//     this.email = email;
+
+// }
+
+//  let student1 = new Student("Usama Ahmed", "shaikhusama109@gmail.com")
+
+//  console.log(student1)
+
+// class student{
+//     constructor(name,email){
+//         this.name = name;
+//         this.email = email;
+        
+//     }
+// }
+
+// class school extends student{
+//     constructor(name,email,school){
+//         super(name,email)
+//         this.school = school;
+//     }
+// } 
+
+//   let student1 = new school("Usama Ahmed", "shaikhusama109@gmail.com" , "NHK public school")
+
+//  console.log(student1)
