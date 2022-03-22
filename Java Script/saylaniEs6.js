@@ -143,6 +143,17 @@
 
 //ES6 Function
 
+// hello = () => {
+//     document.getElementById("demo").innerHTML += this;
+//   }
+  
+//   // The window object calls the function:
+//   window.addEventListener("load", hello);
+  
+//   // A button object calls the function:
+//   document.getElementById("btn").addEventListener("click", hello);
+
+
 //  addNumbers = (a,b) => a+b 
 
 // console.log(addNumbers(1,2))
@@ -164,15 +175,7 @@
 
 // getData(render_data);
 
-// hello = () => {
-//     document.getElementById("demo").innerHTML += this;
-//   }
-  
-//   // The window object calls the function:
-//   window.addEventListener("load", hello);
-  
-//   // A button object calls the function:
-//   document.getElementById("btn").addEventListener("click", hello);
+
 
 //  Array Filter 
 
