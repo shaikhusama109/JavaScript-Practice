@@ -23,16 +23,27 @@ function sockMerchant(n, ar) {
   //         }
   //     }
   // }
-  let match = 0;
+  // let match = 0;
+  // let sortedArray = ar.sort();
+  // console.log(sortedArray);
+  // for (let i = 0; i < sortedArray.length; i++) {
+  //   if (sortedArray[i] === sortedArray[i + 1]) {
+  //     match++;
+  //     i++;
+  //   }
+  // }
+  // console.log(match);
+
+  let pair = 0;
   let sortedArray = ar.sort();
-  console.log(sortedArray);
-  for (let i = 0; i < sortedArray.length; i++) {
-    if (sortedArray[i] === sortedArray[i + 1]) {
-      match++;
+
+  for (let i = 0; i < n; i++) {
+    if (sortedArray[i] == sortedArray[i + 1]) {
+      pair++;
       i++;
     }
   }
-  console.log(match);
+  console.log(pair)
 }
 
-sockMerchant(9, [ 30, 20, 20, 10, 10, 30, 50, 10, 20, 50]);
+sockMerchant(9, [30, 20, 20, 10, 10, 30, 50, 10, 20, 50]);
