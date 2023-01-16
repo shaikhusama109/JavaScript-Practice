@@ -1,5 +1,11 @@
 //Array Implementation
 
 let age = [18, 23, 22, 24];
+let arraySum = 0
 
-console.log(age[1]);
+for(let i = 0; i< age.length; i++){
+    arraySum += age[i]
+}
+
+
+console.log(arraySum);
