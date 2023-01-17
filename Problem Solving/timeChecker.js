@@ -8,10 +8,13 @@ function timeConversion(s) {
 
     if (timeSpan == 'PM' && Number(hrs) < 12) {
         hrs = Number(hrs) + 12
+        // return hrs
     } else if (timeSpan == 'AM' && Number(hrs) == 12) {
         hrs = "0" + (Number(hrs) - 12)
+        // return hrs
     } else {
         hrs = hrs
+        // return hrs
     }
 
     let result = hrs + s.slice(2, 8)
