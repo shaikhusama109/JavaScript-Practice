@@ -1,6 +1,6 @@
-const output = fizzbuzz(30);
+const output = fizzBuzz(30);
 
-function fizzbuzz(input) {
+function fizzBuzz(input) {
 
     if (typeof input !== 'number')
         console.log(NaN);
