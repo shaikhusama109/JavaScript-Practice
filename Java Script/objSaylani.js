@@ -4,30 +4,30 @@
 //     this.roll = roll;
 // }
 
-// Student.prototype.school = "saylani"
+Student.prototype.school = "saylani"
 
 
-// var student1 = new Student("ghous",123)
+var student1 = new Student("ghous",123)
 
-// console.log(student1)
-
-
-
+console.log(student1)
 
 
 
-// var student1 = new Student("ghous",123);
-// var student2 = new Student("basit",123);
-
-// console.log(student1)
-// console.log(student2)
 
 
 
-// var student1 = {
-//     name: "ghous",
-//     roll: 123
-// }
+var student1 = new Student("ghous",123);
+var student2 = new Student("basit",123);
+
+console.log(student1)
+console.log(student2)
+
+
+
+var student1 = {
+    name: "ghous",
+    roll: 123
+}
 
 
 
