@@ -1,7 +1,7 @@
 let person = {
-    name: 'Usama',
-    age: 18,
-    gender: 'Male'
+    // name: 'Usama',
+    // age: 18,
+    // gender: 'Male'
 
 }
 
