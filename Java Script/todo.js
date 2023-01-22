@@ -5,16 +5,16 @@ function addTodo() {
 
 
     // create li tag with text node
-    var li = document.createElement('li')
-    var liText = document.createTextNode(todo_item.value)
-    li.appendChild(liText)
+    // var li = document.createElement('li')
+    // var liText = document.createTextNode(todo_item.value)
+    // li.appendChild(liText)
 
     // create delete button
-    var delBtn = document.createElement("button")
-    var delText = document.createTextNode("DELETE")
-    delBtn.setAttribute("class", "btn")
-    delBtn.setAttribute("onclick", "deleteItem(this)")
-    delBtn.appendChild(delText)
+    // var delBtn = document.createElement("button")
+    // var delText = document.createTextNode("DELETE")
+    // delBtn.setAttribute("class", "btn")
+    // delBtn.setAttribute("onclick", "deleteItem(this)")
+    // delBtn.appendChild(delText)
 
     // create edit button
     var editBtn = document.createElement("button");
