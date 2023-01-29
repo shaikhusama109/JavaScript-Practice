@@ -31,15 +31,15 @@ function addTodo() {
     todo_item.value = ""
 }
 
-// function deleteItem(e) {
-//     e.parentNode.remove()
-// }
+function deleteItem(e) {
+    e.parentNode.remove()
+}
 
-// function editItem(e) {
-//   var val = prompt("Enter updated value",e.parentNode.firstChild.nodeValue)
-//   e.parentNode.firstChild.nodeValue = val;
-// }
+function editItem(e) {
+  var val = prompt("Enter updated value",e.parentNode.firstChild.nodeValue)
+  e.parentNode.firstChild.nodeValue = val;
+}
 
-// function deleteAll() {
-//     list.innerHTML = ""
-// }
+function deleteAll() {
+    list.innerHTML = ""
+}
