@@ -5,9 +5,9 @@ function addTodo() {
 
 
     // create li tag with text node
-    var li = document.createElement('li')
-    var liText = document.createTextNode(todo_item.value)
-    li.appendChild(liText)
+    // var li = document.createElement('li')
+    // var liText = document.createTextNode(todo_item.value)
+    // li.appendChild(liText)
 
     // create delete button
     var delBtn = document.createElement("button")
